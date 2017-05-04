@@ -1,9 +1,9 @@
-//Четные и нечетные числа
+//Четные и нечетные числа элементов массыва
 package lesson1;
 
 import java.util.*;
 
-public class Lesson1 {
+public class Array {
 
 	public static void main(String[] args) {
 		
@@ -23,7 +23,7 @@ public class Lesson1 {
 		if (mas[i]%2==0){
 			System.out.print(mas[i]+" ");
 			}}
-		
+//не четные элементы массива		
 		System.out.print("\nНе четные элементы массыва: ");
 		for (int i = 0; i<mas.length; i++){
 		if (mas[i]%2!=0){
